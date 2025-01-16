@@ -1,13 +1,7 @@
 import subprocess
 
 def change_fps(input_file: str, output_file: str, fps: int):
-    """
-    Изменяет частоту кадров видео с помощью FFmpeg.
-    
-    :param input_file: Путь к входному видеофайлу.
-    :param output_file: Путь к выходному видеофайлу.
-    :param fps: Новая частота кадров (FPS).
-    """
+
     try:
         # Команда для изменения FPS
         command = [
